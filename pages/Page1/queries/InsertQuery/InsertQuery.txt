@@ -1,0 +1,8 @@
+INSERT INTO users."expense" (
+	"category",
+	"amount",
+	"description")
+VALUES (
+	'{{insert_form.formData.category}}',
+	'{{insert_form.formData.amount}}',
+	'{{insert_form.formData.description}}');
